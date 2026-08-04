@@ -385,6 +385,37 @@ p { margin: 0 0 1.1rem; }
 .links > li > a { font-weight: 700; font-size: 1.02rem; }
 .links p { margin: .3rem 0 0; color: var(--muted); font-size: .93rem; }
 
+.badge {
+  display: inline-block;
+  margin-left: .5rem;
+  padding: .05rem .55rem;
+  border-radius: 99px;
+  background: color-mix(in srgb, var(--navy) 13%, transparent);
+  color: var(--navy);
+  font-size: .74rem;
+  font-weight: 700;
+  vertical-align: .1em;
+}
+.badge.fast {
+  background: color-mix(in srgb, var(--gold) 20%, transparent);
+  color: var(--gold);
+}
+
+.sub-links {
+  list-style: none;
+  margin: .5rem 0 0;
+  padding: 0 0 0 1rem;
+  border-left: 2px solid var(--line);
+}
+.sub-links li {
+  padding: .3rem 0;
+  border: 0;
+  color: var(--muted);
+  font-size: .9rem;
+  line-height: 1.75;
+}
+.sub-links a { font-weight: 600; }
+
 /* ── 引言 ─────────────────────────────── */
 
 blockquote.pull {
